@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>AULA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"">
+
+        <style type="text/css"> 
+
+            body{
+                margin: 0;
+                padding: 0;
+            }
+
+            .header{
+                margin: auto;
+                width: 90%;
+                height: 60px;
+                background-color: aquamarine;
+                padding: 5px;
+            }
+
+            .logo {
+                float: left;
+                font-size: 35px;
+                padding: 7px;
+            }
+
+            .header ul{
+                float: right;
+                list-style-type: none;
+            }
+
+            .header ul li{
+                display: inline;
+                padding: 2px;
+                font-size: 20px;
+                margin-right: 8px;
+                cursor: pointer;
+            }
+
+            li:hover{
+                background-color: rgb(47, 255, 186);
+            }
+
+
+            @media screen and (max-width: 635px){
+
+                .logo{
+                    float: none;
+                    text-align: center;
+                }
+
+                .header ul{
+                    float: none;
+                    text-align: center;
+                    padding: 5px;;
+                }
+
+                .header ul li{
+                    background-color: cyan;
+                    display: block;
+                    margin-bottom: 2px;
+                    cursor: pointer;
+                    padding: 10px;
+                }
+
+                .header ul li:hover{
+                    background-color: rgb(0, 224, 224);
+                }
+
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+
+            <div class="logo">Logo</div>
+
+            <ul>
+
+                <li>Home</li>
+                <li>Cursos</li>
+                <li>Contato</li>
+                <li>Escritórios</li>
+                <li>Monetizações</li>
+
+            </ul>
+
+        </div>
+
+    </body>
+
+</html>
